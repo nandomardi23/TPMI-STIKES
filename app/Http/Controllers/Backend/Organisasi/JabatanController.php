@@ -5,14 +5,23 @@ namespace App\Http\Controllers\Backend\Organisasi;
 use App\Http\Controllers\Controller;
 use App\Models\Jabatan;
 use Illuminate\Http\Request;
+use Yajra\DataTables\DataTables;
 
 class JabatanController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
+        // if ($request->ajax()){
+        //     $data = Jabatan::all();
+            
+        //     return DataTables::of($data)
+        //         ->addColumn('action',($row){
+        //             $editButton = '<button class="btn btn-warning btn-sm" data-detail=">Edit</button>'
+        //         })
+        // }
         return view('backend.organisasi.jabatan.index');
     }
 

@@ -1,6 +1,6 @@
 <aside id="sidebar" class="sidebar">
 
-    <u  l class="sidebar-nav" id="sidebar-nav">
+    <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
         <a class="nav-link " href="index.html">

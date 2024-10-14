@@ -11,32 +11,39 @@
     </nav>
   </div>
   <!-- End Page Title -->
-<section class="section">
+<section class="section h-25">
     <div class="card">
         <div class="card-header">
-            List Jabatan
+            <div class="d-flex justify-content-between">
+                <div class="">
+                    <h4>List Jabatan</h4>
+                </div>
+                <div class="">
+                    <a class="btn btn-sm btn-primary" href="{{route('jabatan.create')}}"><i class="bi bi-plus"></i><span>Tambah</span></a>
+                </div>
+            </div>
         </div>
-        <div class="card-body">
-            <table class=" table table-bordered">
-                <tr>
-                    <th>no</th>
-                    <th>Nama</th>
-                    <th>Keterangan</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>anda</td>
-                    <td>test</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>anda</td>
-                    <td>test</td>
-                </tr>
-            </table>
-        </div>
-        <div class="card-footer">
-            <button class="btn btn-primary btn-sm">Submit</button>
+        <div class="card-body mt-3">
+            <div class="table-responsive">
+                <table class=" table table-bordered">
+                    <tr>
+                        <th>no</th>
+                        <th>Nama</th>
+                        <th>Keterangan</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>anda</td>
+                        <td>test</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>anda</td>
+                        <td>test</td>
+                    </tr>
+                </table>
+            </div>
+            
         </div>
     </div>
 </section>
